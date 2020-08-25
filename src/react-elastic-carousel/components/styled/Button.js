@@ -3,8 +3,8 @@ import styled from "styled-components";
 export default styled.button.attrs(({ type = "button" }) => ({ type }))`
   transition: all 0.3s ease;
   font-size: 1.6em;
-  background-color: rgba(103, 58, 183, 0.1);
-  color: ${props => (props.disabled ? "#999" : "#333")};
+  background-color:  #ff324d;
+  color: ${props => (props.disabled ? " #fff;" : " #fff;")};
   box-shadow: 0 0 2px 0px #333;
   border-radius: 50%;
   border: none;
